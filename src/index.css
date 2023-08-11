@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+  width: 200px;
+  height: 80px;
+  border-radius: 50px;
+  background: red;
+  cursor: pointer;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
